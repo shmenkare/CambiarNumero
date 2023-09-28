@@ -1,0 +1,9 @@
+CambiarNumero.csproj
+CambiarNumero.sln
+CambiarNumero.suo
+.gitattributes
+Properties/
+bin/
+obj/
+App.config
+.vs/
