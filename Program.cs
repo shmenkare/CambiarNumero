@@ -37,14 +37,14 @@ namespace CambiarNumero
             Console.WriteLine("El primer valor ahora es {0}",n);
             Console.WriteLine("El segundo valor ahora es {0}",m);
         }
-        static void CambiarNumRef(ref int n, ref int m)
+        static int CambiarNumRef(ref int n, ref int m)
         {
             int temp = 0;
             temp = n;
             n = m;
             m = temp;
-            //return n;
-            //return m;
+            return n;
+            return m;
         }
     }
 }
